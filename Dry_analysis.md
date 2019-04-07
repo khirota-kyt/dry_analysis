@@ -66,12 +66,7 @@ https://support.apple.com/kb/SP653
 ### OS 
 OS X El Capitan (10.11.6)
 
-### データ入手先　サイズ
-FASTQ files : RCC4-EV cells (DRR100656) and RCC4-VHL cells (DRR100657)
-
-DRR100656.sra: ftp://ftp.ddbj.nig.ac.jp/ddbj_database/dra/sra/ByExp/sra/DRX/DRX094/DRX094089/DRR100656/DRR100656.sra
-DRR100657.sra: ftp://ftp.ddbj.nig.ac.jp/ddbj_database/dra/sra/ByExp/sra/DRX/DRX094/DRX094090/DRR100657/DRR100657.sra
-
+### 使用するプログラミング言語・ツールとそのバージョン
 
 human reference sequence file (hs37d5.fa) :  the 1000 Genomes Project ftp site (ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/ technical/reference/phase2_reference_assembly_sequence/),
 annotated general feature format (gff) file: the Illumina iGenome ftp site (ftp://igenome:G3nom3s4u@ussd-ftp.illumina.com/Homo_ sapiens/NCBI/build37.2/). 
@@ -91,6 +86,12 @@ Genes with the gene ontology (GO) annotations of ‘canonical glycolysis’ (GO:
 sorted by the common logarithms of ([FPKM of RCC4-EV] + 1)/([FPKM of RCC4-VHL] + 1), calculated from the same Cuffdiff output file 
 
 A histogram was generated using TIBCO Spotfire Desktop v7.6.0 with the “Better World” program license (TIBCO Spotfire, Inc., Palo Alto, CA, USA) (http://spotfire.tibco.com/better-world-donation-program/).
+
+### データ入手先　サイズ
+FASTQ files : RCC4-EV cells (DRR100656) and RCC4-VHL cells (DRR100657)
+
+DRR100656.sra: ftp://ftp.ddbj.nig.ac.jp/ddbj_database/dra/sra/ByExp/sra/DRX/DRX094/DRX094089/DRR100656/DRR100656.sra
+DRR100657.sra: ftp://ftp.ddbj.nig.ac.jp/ddbj_database/dra/sra/ByExp/sra/DRX/DRX094/DRX094090/DRR100657/DRR100657.sra
 
 
 
