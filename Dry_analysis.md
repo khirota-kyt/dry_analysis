@@ -28,7 +28,7 @@ GO:0061621 (canonical glycolysis) in RCC4-EV and RCC4-VHL cells.
 
 ### 図
 
-![fig6b](/Users/kh/Dropbox/2019.dropbox/2019_04_box/Dry解析本_project/fig6b.png)
+![fig6b](https://github.com/khirota-kyt/dry_analysis/blob/master/fig6b.png)
 
 ### 論文の概要
 
