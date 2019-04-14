@@ -4,14 +4,22 @@ RNA-SeqのdataについてGene set enrichment analysisであきらかになっ�
 ### 著者
 広田 喜一 (Hirota, Kiichi)
 
+坊農 秀雅 (Bono, Hidemasa)
+
 ### 所属
-関西医科大学 附属生命医学研究所 侵襲反応制御部門
+広田: 関西医科大学 附属生命医学研究所 侵襲反応制御部門
+
+坊農: 情報・システム研究機構 ライフサイエンス統合データベースセンター
 
 ###  mail address
-hif1@mac.com
+広田: hif1@mac.com
+
+坊農: bono@dbcls.rois.ac.jp
 
 ### GitHub
- khirota-kyt
+ 広田: khirota-kyt
+
+坊農: bonohu
 
 
 ###  論文のdoi
