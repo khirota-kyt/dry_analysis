@@ -1,0 +1,32 @@
+Associated Gene Name	GO Term Accession	GO Term Name
+ALDOA	GO:0061621	canonical glycolysis
+ENO1	GO:0061621	canonical glycolysis
+GAPDHS	GO:0061621	canonical glycolysis
+PGAM1	GO:0061621	canonical glycolysis
+PFKFB4	GO:0061621	canonical glycolysis
+PGK1	GO:0061621	canonical glycolysis
+PFKFB3	GO:0061621	canonical glycolysis
+ENO3	GO:0061621	canonical glycolysis
+GCK	GO:0061621	canonical glycolysis
+ENO2	GO:0061621	canonical glycolysis
+PFKM	GO:0061621	canonical glycolysis
+GPI	GO:0061621	canonical glycolysis
+GAPDH	GO:0061621	canonical glycolysis
+PKLR	GO:0061621	canonical glycolysis
+HK1	GO:0061621	canonical glycolysis
+TPI1	GO:0061621	canonical glycolysis
+HK2	GO:0061621	canonical glycolysis
+ALDOC	GO:0061621	canonical glycolysis
+PKM	GO:0061621	canonical glycolysis
+PFKFB1	GO:0061621	canonical glycolysis
+ALDOB	GO:0061621	canonical glycolysis
+HK3	GO:0061621	canonical glycolysis
+PGAM2	GO:0061621	canonical glycolysis
+PFKFB2	GO:0061621	canonical glycolysis
+PFKP	GO:0061621	canonical glycolysis
+PFKL	GO:0061621	canonical glycolysis
+HIF1A	GO:0097411	hypoxia-inducible factor-1alpha signaling pathway
+CYBB	GO:0097411	hypoxia-inducible factor-1alpha signaling pathway
+PDK3	GO:0097411	hypoxia-inducible factor-1alpha signaling pathway
+PDK1	GO:0097411	hypoxia-inducible factor-1alpha signaling pathway
+RWDD3	GO:1902073	positive regulation of hypoxia-inducible factor-1alpha signaling pathway
