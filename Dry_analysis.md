@@ -106,7 +106,8 @@ DRR100657.sra: ftp://ftp.ddbj.nig.ac.jp/ddbj_database/dra/sra/ByExp/sra/DRX/DRX0
 
 
 ### 描画用ソースコード
-該当なし
+
+https://github.com/khirota-kyt/dry_analysis/tree/master/scripts
 
 
 ### その他
