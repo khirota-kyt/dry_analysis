@@ -4,14 +4,22 @@ RNA-SeqのdataについてGene set enrichment analysisであきらかになっ�
 ### 著者
 広田 喜一 (Hirota, Kiichi)
 
+坊農 秀雅 (Bono, Hidemasa)
+
 ### 所属
-関西医科大学 附属生命医学研究所 侵襲反応制御部門
+広田: 関西医科大学 附属生命医学研究所 侵襲反応制御部門
+
+坊農: 情報・システム研究機構 ライフサイエンス統合データベースセンター
 
 ###  mail address
-hif1@mac.com
+広田: hif1@mac.com
+
+坊農: bono@dbcls.rois.ac.jp
 
 ### GitHub
- khirota-kyt
+ 広田: khirota-kyt
+
+坊農: bonohu
 
 
 ###  論文のdoi
@@ -58,6 +66,8 @@ RCC4-EV細胞とRCC4-VHL細胞のGO:0061621 (canonical glycolysis)が包含す�
 
 ### ワークフロー
 
+![workflow.png](https://github.com/khirota-kyt/dry_analysis/blob/master/workflow.png)
+
 ### 計算機環境
 
 MacBook Pro (Retina, Mid 2012)
@@ -100,7 +110,8 @@ DRR100657.sra: ftp://ftp.ddbj.nig.ac.jp/ddbj_database/dra/sra/ByExp/sra/DRX/DRX0
 
 
 ### 描画用ソースコード
-該当なし
+
+https://github.com/khirota-kyt/dry_analysis/tree/master/scripts
 
 
 ### その他
