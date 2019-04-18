@@ -62,7 +62,7 @@ HIF-1の持続活性化が細胞の遺伝子発現とくに解糖系と関連つ
 
 ### ワークフロー
 
-ワークフロー.png
+![workflow.png](https://github.com/khirota-kyt/dry_analysis/blob/master/workflow.png)
 
 ### 計算機環境
 
