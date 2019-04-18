@@ -49,8 +49,12 @@ HIF-1の持続活性化が細胞の遺伝子発現とくに解糖系と関連つ
 この分子基盤を明らかにするためにRNA-seq法を用いてRCC4-EV細胞とRCC4-VHL細胞間の遺伝子発現をGene set enrichment analysisしたところ転写因子HIF-1 に依存するsignal pathwayが遺伝子セットとして同定された。
 この結果を受けてさらに解糖系代謝のgene ontologyの発現に着目して遺伝子発現の異動を検討した結果がFigure 6bである。
 
-
 ### 何故このデザインの図にしたか
+
+RCC4-EV細胞とRCC4-VHL細胞のGO:0061621 (canonical glycolysis)が包含する遺伝子について発現の差を可視化したかった。この目的の為には例えばheatmapを描くという方法もあったが遺伝子数が19と比較的に少ないので個別の遺伝子について発現の比率を計算する方法を採用した。
+これによりRCC4-EV細胞とRCC4-VHL細胞での発現の差が可視化されたと考えている。
+この手法は、この論文のFigure 6c, Figure 7fとfFgure 7gでも採用した。
+特にfigure 6cの結果に基づきPDK1をsiRNAを用いて発現抑制する(Figure 8a, Figure 8b)という実験方針を策定することができた。
 
 ### ワークフロー
 
