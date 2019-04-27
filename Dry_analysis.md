@@ -84,14 +84,13 @@ OS X El Capitan (10.11.6)
 
 ●Trimming: FASTX-Toolkit v0.0.14: http://hannonlab.cshl.edu/fastx_toolkit/
 
-●Mapping:Bowtie v.2.2.93, Samtools v.1.3.1, Samtools v.1.3.1 
+●Mapping:Bowtie v.2.2.93, Samtools v.1.3.1
+
 ●Cufflinks (Cuffdiff) v2.1.1
 
-●gene set enrichment analysis:Metascape (http://metascape.org/)
+●gene set enrichment analysis(GSEA):Metascape (http://metascape.org/)
 
-Metascape (http://metascape.org/) was used for the gene set enrichment analysis3
-
-●histogram:TIBCO Spotfire Desktop v7.6.0 with the “Better World” program license (TIBCO Spotfire, Inc., Palo Alto, CA, USA) (http://spotfire.tibco.com/better-world-donation-program/)
+●Histogram:TIBCO Spotfire Desktop v7.6.0 with the “Better World” program license (TIBCO Spotfire, Inc., Palo Alto, CA, USA) (http://spotfire.tibco.com/better-world-donation-program/)
 
 ### データ入手先　サイズ
 
@@ -100,7 +99,7 @@ FASTQ files : RCC4-EV cells (DRR100656) and RCC4-VHL cells (DRR100657)
 DRR100656.sra: ftp://ftp.ddbj.nig.ac.jp/ddbj_database/dra/sra/ByExp/sra/DRX/DRX094/DRX094089/DRR100656/DRR100656.sra
 DRR100657.sra: ftp://ftp.ddbj.nig.ac.jp/ddbj_database/dra/sra/ByExp/sra/DRX/DRX094/DRX094090/DRR100657/DRR100657.sra
 
-cuffdiffによる解析結果"gene_exp.diff"は以下のurlから入手可能である
+cuffdiffによる解析結果"gene_exp.diff":
 
 https://figshare.com/articles/Results_of_Data_analysis_of_RNA-Seq/5353462
 
