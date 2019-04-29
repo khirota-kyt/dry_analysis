@@ -2,28 +2,23 @@
 特定のGO termがアノテーションされた遺伝子群の発現差の可視化
 
 ### 著者
-広田 喜一 (Hirota, Kiichi)
-
-坊農 秀雅 (Bono, Hidemasa)
+- 広田 喜一 (Hirota, Kiichi)
+- 坊農 秀雅 (Bono, Hidemasa)
 
 ### 所属
-広田: 関西医科大学 附属生命医学研究所 侵襲反応制御部門
-
-坊農: 情報・システム研究機構 ライフサイエンス統合データベースセンター
+- 広田: 関西医科大学 附属生命医学研究所 侵襲反応制御部門
+- 坊農: 情報・システム研究機構 ライフサイエンス統合データベースセンター(DBCLS)
 
 ###  mail address
-広田: hif1@mac.com
-
-坊農: bono@dbcls.rois.ac.jp
+- 広田: `hif1@mac.com`
+- 坊農: `bono@dbcls.rois.ac.jp`
 
 ### GitHub
-広田: khirota-kyt
-
-坊農: bonohu
-
+- 広田: `khirota-kyt`
+- 坊農: `bonohu`
 
 ###  論文のdoi
-doi: 10.1038/s41598-018-27220-8
+doi: `10.1038/s41598-018-27220-8`
 
 ###  図の番号
 Figure 6b
@@ -50,19 +45,19 @@ RCC4細胞は腎臓癌由来の細胞株である。VHL(Von Hippel-Lindau; フ�
 
 ### 論文における図の位置づけ
 
-HIF-1の持続活性化が、細胞の遺伝子発現とくに解糖系と関連ついた遺伝子発現に与える影響をgene ontology(GO)のGO:0061621 (canonical glycolysis)が包含する遺伝子について検討した。
+HIF-1の持続活性化が、細胞の遺伝子発現とくに解糖系と関連ついた遺伝子発現に与える影響をgene ontology(GO)のGO:0061621 (canonical glycolysis)がアノテーションされた遺伝子群について検討した。
 
 この論文で示した細胞の酸素消費量、解糖系代謝の代理マーカーである細胞外酸性度がRCC4-EV細胞においてそれぞれ抑制または亢進していることが判明した。
 この現象の分子基盤を明らかにするためにRNA-seq法を用いてRCC4-EV細胞とRCC4-VHL細胞間の遺伝子発現をGene set enrichment analysisしたところ転写因子HIF-1 に依存するsignal pathwayが遺伝子セットとして同定された。
-この結果を受けてさらに解糖系代謝のgene ontologyの発現に着目して遺伝子発現の異動を検討した結果がFigure 6bである。
+この結果を受けてさらに解糖系代謝のgene ontologyの発現に着目して遺伝子発現の変動を検討した結果がFigure 6bである。
 
 ### 何故このデザインの図にしたか
 
-RCC4-EV細胞とRCC4-VHL細胞のGO:0061621 (canonical glycolysis)が包含する遺伝子について発現の差を可視化したかった。
-この目的の為には例えばheatmapを描くという方法もあったが遺伝子数が19と比較的に少ないので個別の遺伝子について発現の比率を計算し示すという方法を採用した。
-これによりRCC4-EV細胞とRCC4-VHL細胞での発現の差が可視化されたと考えている。
-この手法は、この論文のFigure 6c, Figure 7fとfFgure 7gでも採用した。
-特にfigure 6cの結果に基づきPDK1をsiRNAを用いて発現抑制する(Figure 8a, Figure 8b)という実験方針を策定することができた。
+RCC4-EV細胞とRCC4-VHL細胞における、GO:0061621 (canonical glycolysis)がアノテーションされた遺伝子について発現の差を可視化したかった。
+この目的の為には、例えばheatmapを描くという方法もあったが遺伝子数が19と比較的に少ないので個別の遺伝子について発現の比率を計算し示すという方法を採用した。
+これによりRCC4-EV細胞とRCC4-VHL細胞での発現の差が可視化された。
+この手法は、この論文のFigure 6c, Figure 7fとFigure 7gでも採用した。
+特にFigure 6cの結果に基づきPDK1をsiRNAを用いて発現抑制する(Figure 8a, Figure 8b)という実験方針を策定することができた。
 
 ### ワークフロー
 
@@ -75,39 +70,31 @@ MacBook Pro (Retina, Mid 2012)
 16 GB 1600 Mhz DDR3
 SSD 751GB フラッシュストレージ
 
-https://support.apple.com/kb/SP653
+`https://support.apple.com/kb/SP653`
 
 ### OS 
 OS X El Capitan (10.11.6)
 
 ### 使用するプログラミング言語・ツールとそのバージョン
 
-●Quality Check: FastQC : http://www.bioinformatics.babraham.ac.uk/projects/fastqc/
-
-●Trimming: FASTX-Toolkit v0.0.14: http://hannonlab.cshl.edu/fastx_toolkit/
-
-●Mapping:Bowtie v.2.2.93, Samtools v.1.3.1
-
-●Cufflinks (Cuffdiff) v2.1.1
-
-●gene set enrichment analysis(GSEA):Metascape (http://metascape.org/)
-
-●Histogram:TIBCO Spotfire Desktop v7.6.0 with the “Better World” program license (TIBCO Spotfire, Inc., Palo Alto, CA, USA) (http://spotfire.tibco.com/better-world-donation-program/)
+- Quality Check: FastQC : `http://www.bioinformatics.babraham.ac.uk/projects/fastqc/`
+- Trimming: FASTX-Toolkit v0.0.14: `http://hannonlab.cshl.edu/fastx_toolkit/`
+- Mapping: Bowtie v.2.2.93, Samtools v.1.3.1
+- Cufflinks (Cuffdiff) v2.1.1
+- gene set enrichment analysis(GSEA): Metascape (`http://metascape.org/`)
+- Histogram: TIBCO Spotfire Desktop v7.6.0 with the “Better World” program license (TIBCO Spotfire, Inc., Palo Alto, CA, USA) (`http://spotfire.tibco.com/better-world-donation-program/`)
 
 ### データ入手先　サイズ
 
-FASTQ files : RCC4-EV cells (DRR100656) and RCC4-VHL cells (DRR100657)
+- FASTQ files : RCC4-EV cells (DRR100656) and RCC4-VHL cells (DRR100657)
+  - DRR100656.sra: `ftp://ftp.ddbj.nig.ac.jp/ddbj_database/dra/sra/ByExp/sra/DRX/DRX094/DRX094089/DRR100656/DRR100656.sra`
+  - DRR100657.sra: `ftp://ftp.ddbj.nig.ac.jp/ddbj_database/dra/sra/ByExp/sra/DRX/DRX094/DRX094090/DRR100657/DRR100657.sra`
 
-DRR100656.sra: ftp://ftp.ddbj.nig.ac.jp/ddbj_database/dra/sra/ByExp/sra/DRX/DRX094/DRX094089/DRR100656/DRR100656.sra
-DRR100657.sra: ftp://ftp.ddbj.nig.ac.jp/ddbj_database/dra/sra/ByExp/sra/DRX/DRX094/DRX094090/DRR100657/DRR100657.sra
-
-cuffdiffによる解析結果"gene_exp.diff":
-
-https://figshare.com/articles/Results_of_Data_analysis_of_RNA-Seq/5353462
+- cuffdiffによる解析結果 `gene_exp.diff`: `https://figshare.com/articles/Results_of_Data_analysis_of_RNA-Seq/5353462`
 
 ### 描画用ソースコード
 
-https://github.com/khirota-kyt/dry_analysis/tree/master/scripts
+`https://github.com/khirota-kyt/dry_analysis/tree/master/scripts`
 
 
 ### その他
