@@ -99,5 +99,6 @@ OS X El Capitan (10.11.6)
 
 ### その他
 
-論文で使用したfigureの作成は:TIBCO Spotfire Desktop v7.6.0 を用いて行ったが、同等の描画をJupyter notebookで行う為のソースコードを上記urlに格納した。
+論文で使用したfigureの作成は:TIBCO Spotfire Desktop v7.6.0 を用いて行ったが、同等の描画をJupyter notebookで行う為のソースコードを上記urlに格納した。以下にその結果を示した。
+
 
